@@ -1,0 +1,28 @@
+.container {
+  background-color: black;
+  font-family: sans-serif;
+  font-style: italic;
+  max-width: 300px;
+  box-shadow: 0px 0px 10px 3px black;
+  min-height: 500px;
+  margin: 50px auto;
+  border-radius: 35px;
+  background: linear-gradient(to top, rgba(42, 159, 0, 0.2) 0%, rgba(33, 33, 32, 0.7) 18%, black 30%);
+  background-blend-mode: multiply; }
+  .container header img {
+    width: 300px;
+    height: 350px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px; }
+  .container main img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 150px;
+    height: 50px; }
+  .container main h1 {
+    padding-left: 20px;
+    color: black;
+    font-size: 1em;
+    float: left;
+    font-family: sans-serif;
+    text-align: center; }
