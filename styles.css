@@ -1,8 +1,10 @@
+@media (min-width: 500px) {
+  body {
+    background-image: url(https://d3ui957tjb5bqd.cloudfront.net/uploads/images/4/49/49283.og.jpg?1522224238);
+    background-repeat: no-repeat;
+    background-size: cover; } }
 body {
-  margin: 0px auto;
-  background-image: url(https://d3ui957tjb5bqd.cloudfront.net/uploads/images/4/49/49283.og.jpg?1522224238);
-  background-repeat: no-repeat;
-  background-size: cover; }
+  margin: 0px auto; }
 
 nav {
   display: table;
@@ -52,7 +54,8 @@ nav {
     display: table;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7); }
+    background-color: rgba(27, 1, 30, 0.9);
+    background-image: linear-gradient(to right, black 0%, rgba(27, 1, 30, 0.9) 10%, rgba(42, 2, 47, 0.9) 50%, rgba(27, 1, 30, 0.9) 90%, black 100%); }
 
   .container {
     margin: 20px auto 10px;
