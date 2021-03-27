@@ -18,33 +18,58 @@ nav {
   font-style: italic;
   max-width: 300px;
   box-shadow: 0px 0px 10px 3px black;
-  min-height: 500px;
-  margin: 50px auto;
+  min-height: 540px;
+  margin: 45px auto;
   border-radius: 35px;
-  background: linear-gradient(to top, #251e3e 0%, black 23%);
+  background: linear-gradient(to top, #251e3e 0%, black 20%);
   background-blend-mode: multiply; }
   .container header img {
     width: 300px;
-    height: 350px;
+    height: 330px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px; }
-  .container main {
-    align-content: center; }
-    .container main img {
-      margin-left: 45px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      width: 200px;
-      height: 50px; }
-    .container main h1 {
-      width: 100%;
-      color: black;
-      font-size: 1em;
-      float: left;
-      font-family: sans-serif;
-      text-align: center; }
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; }
+  .container main img {
+    margin-left: 45px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 60px; }
+  .container main h5 {
+    padding-left: 10px;
+    color: steelblue;
+    float: left;
+    font-family: sans-serif; }
+  .container main .btn {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 4px 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white; }
+  .container main .btn-outline {
+    background-color: transparent;
+    border: 1px solid #ffffff; }
+  .container main .btn::before {
+    font-family: 'Material Icons';
+    content: '\25B6';
+    vertical-align: middle;
+    font-size: 1em;
+    padding-right: .5em; }
+  .container main .btn-outline:hover {
+    border-color: steelblue;
+    color: steelblue;
+    box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2); }
+  .container main p {
+    float: left;
+    text-align: justify;
+    color: grey;
+    font-weight: 100;
+    line-height: 1;
+    word-spacing: 1px;
+    margin: 0px 15px;
+    font-weight: 700;
+    opacity: .84; }
 
 @media (max-width: 430px) {
   body {
