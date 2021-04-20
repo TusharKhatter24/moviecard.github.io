@@ -71,9 +71,10 @@ nav {
     font-weight: 700;
     opacity: .84; }
 
-@media (max-width: 430px) {
+@media (max-width: 499px) {
   body {
-    background-color: rebeccapurple; }
+    background-color: rebeccapurple;
+    height: 100%; }
 
   nav {
     display: table;
@@ -84,4 +85,4 @@ nav {
 
   .container {
     margin: 20px auto 10px;
-    min-height: 500px; } }
+    min-height: 900px; } }

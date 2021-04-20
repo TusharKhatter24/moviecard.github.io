@@ -89,9 +89,10 @@ nav{
 		}
 	}
 }
-@media (max-width:576px){
+@media (max-width:499px){
 	body{
 		background-color: rebeccapurple;
+		height: 100%;
 	}
 	nav{
 	display: table;
@@ -102,6 +103,6 @@ nav{
 	}
 	.container{
 		margin: 20px auto 10px;
-		min-height: 500px;
+		min-height: 900px;
 	}
 }
